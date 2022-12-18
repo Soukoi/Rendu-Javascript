@@ -1,0 +1,45 @@
+.red {
+    color: rgba(241, 77, 44, 0.899);
+}
+.blue {
+    color: rgb(0, 0, 255);
+}
+.gold {
+    color: gold;
+}
+.black {
+    color: black;
+}
+.green {
+    color: rgb(86, 186, 86);
+}
+
+.button {
+    color: #222222;
+    background-color: antiquewhite;
+    border: solid 2px black;
+}
+.buttonNight {
+    background-color: rgba(241, 77, 44, 0.899);
+    color: antiquewhite;
+    border: solid 2px antiquewhite;
+}
+body{
+    background-color: antiquewhite;
+}
+.bodyNight {
+    background-color: #222222;
+    color: antiquewhite;
+}
+
+/*anim pointer*/
+.circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    z-index: -1;
+}
